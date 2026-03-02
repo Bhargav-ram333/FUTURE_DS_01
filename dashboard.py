@@ -10,7 +10,7 @@ st.title("Business Sales Dashboard")
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/Users/bhargavram/Downloads/Sample - Superstore.csv", encoding='latin1')
+    df = pd.read_csv("Sample - Superstore.csv", encoding='latin1')
     # Convert Order Date to datetime
     df['Order Date'] = pd.to_datetime(df['Order Date'])
     # Create Year and Month column
