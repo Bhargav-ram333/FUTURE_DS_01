@@ -1,6 +1,6 @@
 # Business Sales Performance Analytics
 
-https://buiseness-sales-analytics.streamlit.app
+#dashboard - https://buiseness-sales-analytics.streamlit.app
 
 ## About This Project
 
